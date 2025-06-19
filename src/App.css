@@ -1,0 +1,309 @@
+/* common classes */
+
+.max-width {
+  width: 1100px;
+  margin: 0 auto;
+}
+.absolute-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* commonclasses end  */
+
+/* css variables */
+
+#root {
+  --primary-box-shadow: rgb(28 28 28 / 8%) 2px 2px 8px;
+  --border-white: rgb(232, 232, 232);
+  --primary-bg: rgb(255, 255, 255);
+}
+
+/* css variables end  */
+
+/* header css */
+
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.header-logo {
+  height: 27px;
+  max-width: 140px;
+  margin-right: 24px;
+}
+
+.header-right {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  height: 72px;
+}
+
+.header-location-search-container {
+  display: flex;
+  height: 54px;
+  align-items: center;
+  border-radius: 8px;
+  box-shadow: var(--primary-box-shadow);
+  border: 1px solid var(--border-white);
+  width: 70%;
+  background-color: var(--primary-bg);
+}
+
+.location-wrapper {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  padding: 0px 10px;
+}
+
+.location-icon-name {
+  display: flex;
+}
+
+.location-icon {
+  color: red;
+  font-size: 20px;
+  margin-right: 8px;
+}
+
+.location-search-separator {
+  height: 20px;
+  border: 0.5px gray solid;
+  margin: 2px;
+}
+
+.header-search-bar {
+  display: flex;
+  flex: 2;
+  padding: 0px 10px;
+}
+
+.header-search-input {
+  margin-left: 8px;
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+.profile-wrapper {
+  display: flex;
+  margin: auto;
+  gap: 5px;
+}
+
+/* header css end  */
+
+/* tabs css  */
+
+.tab-options {
+  display: flex;
+  align-items: center;
+  margin: 12px;
+  padding: 8px;
+}
+
+.tab {
+  display: flex;
+  align-items: center;
+  border-bottom: 2.5px solid red;
+  margin: 25px;
+}
+
+.tab-icon {
+  height: 35px;
+  margin: 10px;
+  width: 44px;
+}
+
+.tab-icon-container {
+  border-radius: 50%;
+  background-color: rgb(105, 105, 105);
+  height: 66px;
+}
+
+.tab-name {
+  margin: 12px;
+  font-weight: bold;
+}
+
+/* tab css done */
+
+/* filter css  */
+
+.filters-container {
+  display: flex;
+  align-items: center;
+  margin: 12px;
+}
+
+.filter-item {
+  display: flex;
+  margin: 9px;
+  border: 1px solid gray;
+  border-radius: 8px;
+  padding: 5px;
+}
+
+.filter-icon {
+  margin-right: 8px;
+}
+
+/* delivery css
+ */
+
+.delivery-heading {
+  font-size: 30px;
+  /* font-weight: bold; */
+  margin: 2px;
+  padding-bottom: 16px;
+}
+
+.delivery-collections-container {
+  margin: 10px;
+  padding-top: 20px;
+  /* border-top: 2px solid rgb(232, 232, 232); */
+  /* border-bottom: 2px solid rgb(232, 232, 232); */
+  background: rgb(248, 248, 248);
+}
+
+.delivery-item {
+  height: 190px;
+  width: 190px;
+  border-radius: 50%;
+}
+
+.delivery-slider{
+  display: flex;
+}
+
+.slider-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+.restaurant-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.restaurant-item {
+  flex: 0 0 calc(33.333% - 16px); /* 3 items per row with gap */
+  border: 1px solid #ddd;
+  padding: 12px;
+  border-radius: 8px;
+  background: #fff;
+  box-sizing: border-box;
+}
+
+.restaurant-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.restaurant-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+.restaurant-category,
+.restaurant-rating,
+.restaurant-delivery-time {
+  font-size: 14px;
+  color: #555;
+}
+
+
+
+.footer {
+  background-color: #f8f8f8;
+  padding: 40px 0 20px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+  color: #333;
+}
+
+.footer-top {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.footer-logo-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-logo {
+  width: 150px;
+}
+
+.footer-language-country {
+  display: flex;
+  gap: 16px;
+  font-weight: bold;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.footer-links div {
+  min-width: 160px;
+}
+
+.footer-links h4 {
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin: 6px 0;
+  cursor: pointer;
+}
+
+.footer-links li:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.footer-social img {
+  width: 24px;
+  margin-left: 12px;
+  cursor: pointer;
+}
