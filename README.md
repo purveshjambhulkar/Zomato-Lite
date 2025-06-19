@@ -2,6 +2,8 @@
 
 A Zomato-inspired food delivery web application built using **React**.
 
+[Live Demo](https://zomato-lite-p4mm.vercel.app/)
+
 ## Features
 
 - Browse restaurants and menus
@@ -13,3 +15,4 @@ A Zomato-inspired food delivery web application built using **React**.
 ## Tech Stack
 
 - **Frontend:** React
+
